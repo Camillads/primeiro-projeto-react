@@ -3,12 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import Teste from './Teste';
 import Formulario from './Formulario';
+import List from './List';
 
 class App extends Component {
 
   render() {
     return (
-      <Formulario></Formulario>
+      <div>
+        <Formulario></Formulario>
+        <List></List>
+      </div>
     );
   }
 }
