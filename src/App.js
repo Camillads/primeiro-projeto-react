@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Teste from './Teste';
 import Formulario from './Formulario';
-import List from './List';
+import User from './pages/user/User';
 
 class App extends Component {
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <Formulario></Formulario>
-        <List></List>
+        <User></User>
       </div>
     );
   }
