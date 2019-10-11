@@ -14,7 +14,7 @@ const UserFormFunc = props => {
     return (
         <form onSubmit={handleSubmit((fields) => submit(fields, submitUserAction))}>
             <label>Nome:</label>
-            <Field type="text" component="input" name="name" />
+            <Field type="text" component="input" name="nome" />
             <label>Email:</label>
             <Field type="text" component="input" name="email" />
             <button type="submit">Submit</button>
